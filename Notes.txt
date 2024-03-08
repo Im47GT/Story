@@ -1,0 +1,50 @@
+// Use this to check the version of the git that is installed.
+git --version
+
+// To set the global name for the user. Write in the git bash terminal.
+git config --global user.name "Name"
+
+// To set the global email for the user. Write in the git bash terminal.
+git config --global user.email "something@gmail.com"
+
+//Use this statement to clone the rep in the github(remote).
+get clone https://something.com
+
+//Use this to get the present working directory.
+pwd
+
+//To get inside some folder, or to change the current directory.
+cd nameOfNewDirectory/
+
+// Use this to list the files in the git directory.
+ls
+
+// Use this to list all the files and folders.
+ls -a
+
+// To get the status of the changes, etc. Modifications.
+git status
+
+//The 4 Types of Status of the Git-Command.
+/****************************************/
+   1. untracked --> new files not tracked by the git yet.
+
+   2. modified --> changed
+
+   3. staged(add) --> file is ready to be committed.
+
+   4. unmodified --> UnChanged.
+/****************************************/
+
+//Tracked files --> Files that are already recognized by the git.
+//UnTracked files --> Files that are created but not recognized by the git.
+
+// The 2-step process for Tracking the Files in the Git.
+
+ADD and COMMIT.
+add --> adds new or changed files in your working direcotry to the Git staging area.
+git add <- file Name -> //for single file.
+git add . //add all files in staging area.
+
+commit --> It is the record of the change.
+git commit -m"Some kind of Message"
