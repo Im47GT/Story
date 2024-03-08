@@ -8,5 +8,11 @@ cd <folderName> --> will change the working directory to the specified folder.
 code <fileName.txt> --> will open the file in the vs code.
 
 // Step: 2. initialize all files and folders.
+git add <fileName> --> This will stage the files.
 git init --> This will initialize empty git repsoitory.
+git commit -m"Some message" --> This will commit all the changes.
+git log --> Will list all the files that your have committed.
+git status --> Tell the current status of the file.
+// This tells us to track the untracked files
+
 """That empty git repository will be empty."""
