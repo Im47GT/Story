@@ -1,0 +1,12 @@
+// Working Directory Stage.
+
+// Step: 1. Setup all the files and folders.
+ls -a --> will list all the files in the current working directory.
+touch <fileName.txt> --> touch will create a file of the specified name.
+mkdir <folderName> --> will make the folder/directory according to the specified name.
+cd <folderName> --> will change the working directory to the specified folder.
+code <fileName.txt> --> will open the file in the vs code.
+
+// Step: 2. initialize all files and folders.
+git init --> This will initialize empty git repsoitory.
+"""That empty git repository will be empty."""
