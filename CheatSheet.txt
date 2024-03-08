@@ -18,3 +18,9 @@ git commit -m"Some message" --> This will commit all the changes.
 
 git log --> Will list all the files that your have committed.
 git status --> Tell the current status of the file.
+"Use 'q' to quit the git log interface"
+
+// Step: 3 Push your git repository on GitHub.
+1. Make your account, from there you have to copy the HTTPS i.e something like this https://github.com/Name/RepoName.git.
+2. Now, go to the terminal and write this --> git remote add <name> <url>
+3. After that write --> git push -u <remote name> <branch name> 
